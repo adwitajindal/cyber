@@ -1,139 +1,141 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #F0F0F0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
 }
 
 header {
-    background-color: white;
-    padding: 20px;
-    text-align: center;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
 }
 
 h1 {
-    margin: 0;
+  margin: 0;
 }
 
 section {
-    padding: 20px;
+  padding: 20px;
 }
 
 h2 {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 li {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 header nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
 }
 
 header nav li {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .hero-image {
-    background-image: url('path/to/your/image.jpg');
-    /* Replace with actual image path */
-    background-size: cover;
-    height: 300px;
+  background-image: url("path/to/your/image.jpg");
+  /* Replace with actual image path */
+  background-size: cover;
+  height: 300px;
 }
 
 .content {
-    padding: 20px;
-    background-color: #fff;
+  padding: 20px;
+  background-color: #fff;
 }
 
 .university-info {
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .social-icons {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 .social-icons img {
-    width: 30px;
-    height: 30px;
-    margin: 0 10px;
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
 }
 
 .event-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 nav {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
-    height: 50px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  height: 50px;
 }
 
 nav a {
-    text-decoration: none;
-    color: #333;
-    padding: 10px;
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
 }
 
 nav a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .event-card img {
-    width: 100px;
-    height: 100px;
-    margin-bottom: 10px;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
 }
 
 .event-card h3 {
-    margin: 0;
+  margin: 0;
 }
 
 .event-card p {
-    margin: 0;
+  margin: 0;
 }
-.content{
-    position: relative;
-    margin-left: 20px;
+.content {
+  position: relative;
+  margin-left: 20px;
+}
+.log-in {
+  background-color: rgba(255, 0, 0, 0.714);
+  color: white;
+  border: #cccccc00;
+  border-radius: 5px;
+}
+.img {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  margin-left: -150px;
+  margin-top: -20px;
+}
+.navbar {
+  height: 15px;
+}
 
-}
-.log-in{
-    background-color: rgba(255, 0, 0, 0.714);
-    color: white;
-    border: #cccccc00;
-border-radius: 5px;
-}
-.img{
-    height: 50px;
-    width: 50px;
-    position: relative;
-    margin-left: -150px;
-    margin-top: -20px;
-
-}
-.navbar{
-    height: 15px;
+.about-content {
+  width: 50%;
 }
